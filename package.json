@@ -1,5 +1,5 @@
 {
-  "name": "Maroza-Theme",
+  "name": "maroza-theme",
   "icon": "image/maroza.png",
   "repository": {
     "type": "git",
@@ -8,9 +8,9 @@
   "publisher": "thirawat27",
   "displayName": "Maroza Theme",
   "description": "Maroza, a theme that fits everyone.",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Themes"
