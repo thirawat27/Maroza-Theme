@@ -6,7 +6,7 @@
 <h1 align="center">Maroza Theme 🌸</h1>
 
 <p align="center">
-Maroza is a beautifully designed theme crafted to suit everyone. Whether you're a developer or a designer, Maroza provides a calm and modern color palette that enhances your coding experience with its soothing tones.
+Maroza is a beautifully designed theme crafted to suit everyone. Whether you're a developer or a designer, Maroza provides a calm and modern color palette that enhances your coding experience with its soothing tones — carefully selected to reduce eye strain during long coding sessions 💻.
 </p><br>
 
 <div align="center">
@@ -19,16 +19,30 @@ Maroza is a beautifully designed theme crafted to suit everyone. Whether you're 
 </div>
 
 <br>
+ 
+## Maroza Dark Theme
 
-![preview](/image/preview.png)
+![Maroza Dark Theme preview](/image/code.png)
+
+<br>
+
+## Maroza Light Theme
+
+![Maroza Light Theme preview](/image/code1.png)
+
+<br>
+
+## Maroza Soothing Sepia Theme
+
+![Maroza Soothing Sepia Theme preview](/image/code2.png)
 
 ## Installation
 
 - Open Extensions sidebar panel in VS Code. View → Extensions
-- Search for Maroza Theme
+- Search for Maroza Dark Theme Or Maroza Light Theme
 - Click Install to install it
 - Click Reload to reload your editor
-- Code > Preferences > Color Theme > Maroza Theme
+- Code > Preferences > Color Theme > Maroza Dark Theme Or Maroza Light Theme
 
 ## Support
 

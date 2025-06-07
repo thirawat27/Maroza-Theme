@@ -1,5 +1,5 @@
 {
-    "name": "maroza-theme",
+    "name": "Maroza-Dark-Theme",
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -1573,231 +1573,186 @@
         }
     ],
     "colors": {
-        // สีของข้อความในส่วนต่างๆ ของ UI
-        "foreground": "#b3b3b3", // สีของข้อความทั่วไป
-        // สีของขอบเมื่อมีการโฟกัส
-        "focusBorder": "#616161", // สีของขอบเมื่อมีการเลือก (focus)
-        // สีพื้นหลังของการเลือกข้อความ
-        "selection.background": "#a65dbf80", // สีพื้นหลังเมื่อมีการเลือกข้อความ
-        // สีเงาของ scrollbar
-        "scrollbar.shadow": "#000000", // สีเงาของ scrollbar
-        // สีของข้อความใน Activity Bar
-        "activityBar.foreground": "#ffffff", // สีของข้อความใน Activity Bar
-        // สีพื้นหลังของ Activity Bar
-        "activityBar.background": "#0c1021", // สีพื้นหลังของ Activity Bar
-        // สีของข้อความใน Activity Bar ที่ไม่ได้ใช้งาน
-        "activityBar.inactiveForeground": "#ffffff66", // สีข้อความที่ไม่ใช้งาน
-        // สีพื้นหลังและข้อความใน Activity Bar Badge
-        "activityBarBadge.foreground": "#ffffff", // สีข้อความใน Activity Bar Badge
-        "activityBarBadge.background": "#b472e6", // สีพื้นหลังของ Activity Bar Badge
-        // สีพื้นหลังและข้อความใน Side Bar
-        "sideBar.background": "#0f172a", // สีพื้นหลังของ Side Bar
-        "sideBar.foreground": "#cccccc", // 🎨 UX IMPROVEMENT: สว่างขึ้นเล็กน้อยเพื่อให้อ่านง่ายขึ้น
-        // สีของหัวข้อใน Section ของ Side Bar
-        "sideBarSectionHeader.background": "#0c1021", // สีพื้นหลังของหัวข้อ Section
-        "sideBarSectionHeader.foreground": "#ffffff", // สีข้อความของหัวข้อ Section
-        "sideBarSectionHeader.border": "#000000", // สีขอบของหัวข้อ Section
-        // สีของข้อความในชื่อของ Side Bar
-        "sideBarTitle.foreground": "#eeeeee", // สีข้อความในชื่อของ Side Bar
-        // สีพื้นหลังและข้อความของรายการที่ไม่ได้เลือก
-        "list.inactiveSelectionBackground": "#2e2b57", // สีพื้นหลังของรายการที่ไม่ได้เลือก
-        "list.inactiveSelectionForeground": "#ffffff", // สีข้อความของรายการที่ไม่ได้เลือก
-        // สีพื้นหลังและข้อความเมื่อเอาเมาส์ไปเหนือรายการ
-        "list.hoverBackground": "#3a3670", // สีพื้นหลังเมื่อ hover บนรายการ
-        "list.hoverForeground": "#ffffff", // สีข้อความเมื่อ hover บนรายการ
-        // สีพื้นหลังและข้อความของรายการที่ถูกเลือก
-        "list.activeSelectionBackground": "#4238a3", // สีพื้นหลังของรายการที่ถูกเลือก
-        "list.activeSelectionForeground": "#ffffff", // สีข้อความของรายการที่ถูกเลือก
-        // สีของเส้นช่วยในการจัดแนวใน Tree View
-        "tree.indentGuidesStroke": "#ffffff74", // สีของเส้นช่วยจัดแนวใน Tree View
-        // สีพื้นหลังของรายการที่ดรอป
-        "list.dropBackground": "#5045b0", // สีพื้นหลังเมื่อมีการดรอปรายการ
-        // สีข้อความที่ใช้เน้นในรายการ
-        "list.highlightForeground": "#dc69ffdf", // สีข้อความที่ใช้เน้นในรายการ
-        // สีพื้นหลังและข้อความเมื่อมีการโฟกัสในรายการ
-        "list.focusBackground": "#b14dcf7e", // สีพื้นหลังเมื่อมีการโฟกัสในรายการ
-        "list.focusForeground": "#ffffff", // สีข้อความเมื่อมีการโฟกัสในรายการ
-        // สีพื้นหลังและขอบของฟิลด์กรองรายการ
-        "listFilterWidget.background": "#6b21a878", // สีพื้นหลังของฟิลด์กรอง
-        "listFilterWidget.outline": "#d946ef", // สีขอบของฟิลด์กรอง
-        "listFilterWidget.noMatchesOutline": "#ef4444", // สีขอบเมื่อไม่มีการจับคู่ในฟิลด์กรอง      
-        // สีของข้อความใน Status Bar
-        "statusBar.foreground": "#ffffff", // สีข้อความใน Status Bar
-        // สีพื้นหลังของ Status Bar
-        "statusBar.background": "#181b28", // สีพื้นหลังของ Status Bar
-        // สีพื้นหลังเมื่อมีการ hover บน Status Bar Item
-        "statusBarItem.hoverBackground": "#ffffff1f", // สีพื้นหลังเมื่อ hover บน Status Bar Item
-        // สีพื้นหลังและข้อความเมื่อมีการดีบัก
-        "statusBar.debuggingBackground": "#e26324", // สีพื้นหลังเมื่อกำลังดีบัก
-        "statusBar.debuggingForeground": "#ffffff", // สีข้อความเมื่อกำลังดีบัก
-        // สีพื้นหลังและข้อความเมื่อไม่มีโฟลเดอร์เปิด
-        "statusBar.noFolderBackground": "#750099", // สีพื้นหลังเมื่อไม่มีโฟลเดอร์เปิด
-        "statusBar.noFolderForeground": "#ffffff", // สีข้อความเมื่อไม่มีโฟลเดอร์เปิด
-        // สีพื้นหลังและข้อความสำหรับ Status Bar Item ที่เชื่อมต่อระยะไกล
-        "statusBarItem.remoteBackground": "#b856d6", // สีพื้นหลังของ Status Bar Item ที่เชื่อมต่อระยะไกล
-        "statusBarItem.remoteForeground": "#ffffff", // สีข้อความของ Status Bar Item ที่เชื่อมต่อระยะไกล
-        "titleBar.activeBackground": "#0c1021", // สีพื้นหลังของ Title Bar ที่เปิดใช้งาน
-        "titleBar.activeForeground": "#fffffffd", // สีข้อความของ Title Bar ที่เปิดใช้งาน
-        // สีพื้นหลังและข้อความใน Title Bar (ไม่ได้ใช้งาน)
-        "titleBar.inactiveBackground": "#1a1f33", // สีพื้นหลังของ Title Bar ที่ไม่ได้ใช้งาน
-        "titleBar.inactiveForeground": "#9fa9c6", // สีข้อความของ Title Bar ที่ไม่ได้ใช้งาน
-        // สีขอบของ Title Bar
-        "titleBar.border": "#000000", // สีขอบของ Title Bar
-        "menubar.selectionForeground": "#ffffff", // สีข้อความเมื่อมีการเลือกในเมนูบาร์
-        // สีพื้นหลังเมื่อมีการเลือกในเมนูบาร์
-        "menubar.selectionBackground": "#b856d6", // สีพื้นหลังเมื่อมีการเลือกในเมนูบาร์
-        // สีข้อความในเมนู
-        "menu.foreground": "#d1cbcb", // สีข้อความในเมนู
-        // สีพื้นหลังของเมนู
-        "menu.background": "#0f172a", // สีพื้นหลังของเมนู
-        // สีข้อความเมื่อมีการเลือกในเมนู
-        "menu.selectionForeground": "#ffffff", // สีข้อความเมื่อมีการเลือกในเมนู
-        // สีพื้นหลังเมื่อมีการเลือกในเมนู
-        "menu.selectionBackground": "#ad45cd", // สีพื้นหลังเมื่อมีการเลือกในเมนู
-        // สีขอบเมื่อมีการเลือกในเมนู
-        "menu.selectionBorder": "#00000000", // สีขอบเมื่อมีการเลือกในเมนู
-        // สีพื้นหลังของเส้นแบ่งในเมนู
-        "menu.separatorBackground": "#868686", // สีพื้นหลังของเส้นแบ่งในเมนู
-        // สีขอบของเมนู
-        "menu.border": "#00000085", // สีขอบของเมนู
-        // สีพื้นหลังและข้อความในปุ่ม
-        "button.background": "#a855f7", // สีพื้นหลังของปุ่ม
-        "button.foreground": "#ffffff", // สีข้อความในปุ่ม
-        // สีพื้นหลังเมื่อมีการ hover บนปุ่ม
-        "button.hoverBackground": "#9333ea", // สีพื้นหลังเมื่อ hover บนปุ่ม
-        // สีข้อความของปุ่มรอง
-        "button.secondaryForeground": "#ffffff", // สีข้อความของปุ่มรอง
-        "button.secondaryBackground": "#64748b", // สีพื้นหลังของปุ่มรอง
-        // สีพื้นหลังเมื่อมีการ hover บนปุ่มรอง
-        "button.secondaryHoverBackground": "#475569", // สีพื้นหลังเมื่อ hover บนปุ่มรอง
-        "input.background": "#7851A9", // พื้นหลังของช่องป้อนข้อมูล
-        "input.border": "#b472e6", // สีขอบของช่องป้อนข้อมูล
-        "input.foreground": "#ffffff", // สีข้อความในช่องป้อนข้อมูล
-        "inputOption.activeBackground": "#483D8B", // พื้นหลังของตัวเลือกที่ใช้งานอยู่
-        "inputOption.activeBorder": "#ffffffcc", // สีขอบของตัวเลือกที่ใช้งานอยู่
-        "inputOption.activeForeground": "#eeeeee", // สีข้อความของตัวเลือกที่ใช้งานอยู่
-        "input.placeholderForeground": "#ffffff", // สีข้อความ placeholder
-        "textLink.foreground": "#b472e6", // สีข้อความลิงก์
-        "editor.background": "#0c1021", // พื้นหลังของ editor
-        "editor.foreground": "#d3d3d3", // สีข้อความใน editor
-        "editorLineNumber.foreground": "#858585", // 🎨 UX IMPROVEMENT: สว่างขึ้นเพื่อให้อ่านง่ายขึ้น
-        "editorCursor.foreground": "#ff6a00", // สีของเคอร์เซอร์ใน editor
-        "editorCursor.background": "#000000", // สีพื้นหลังของเคอร์เซอร์
-        "editor.selectionBackground": "#272b3d", // สีพื้นหลังของข้อความที่เลือก
-        "editor.inactiveSelectionBackground": "#483D8B", // สีพื้นหลังของข้อความที่เลือกเมื่อ editor ไม่ใช้งาน
-        "editorWhitespace.foreground": "#e3e4e229", // สีของ whitespace ใน editor
-        "editor.selectionHighlightBackground": "#add6ff26", // สีพื้นหลังของการไฮไลท์เลือก
-        "editor.selectionHighlightBorder": "#495F77", // สีขอบของการไฮไลท์เลือก
-        "editor.findMatchBackground": "#515c6a", // สีพื้นหลังสำหรับคำที่ค้นหา
-        "editor.findMatchBorder": "#74879f", // สีขอบสำหรับคำที่ค้นหา
-        "editor.findMatchHighlightBackground": "#ea5c0055", // สีพื้นหลังของการไฮไลท์ที่ค้นพบ
-        "editor.findMatchHighlightBorder": "#ffffff00", // สีขอบของการไฮไลท์ที่ค้นพบ
-        "editor.findRangeHighlightBackground": "#3a3d4166", // สีพื้นหลังของช่วงที่ค้นหา
-        "editor.findRangeHighlightBorder": "#ffffff00", // สีขอบของช่วงที่ค้นหา
-        "editor.rangeHighlightBackground": "#ffffff0b", // สีพื้นหลังของการไฮไลท์ช่วง
-        "editor.rangeHighlightBorder": "#ffffff00", // สีขอบของช่วงที่ค้นหา
-        "editor.hoverHighlightBackground": "#264f7840", // สีพื้นหลังของการไฮไลท์เมื่อชี้เมาส์
-        "editor.wordHighlightStrongBackground": "#004972b8", // สีพื้นหลังของการไฮไลท์คำที่เด่นชัด
-        "editor.wordHighlightBackground": "#575757b8", // สีพื้นหลังของการไฮไลท์คำ
-        "editor.lineHighlightBackground": "#ffffff12", // 🎨 UX IMPROVEMENT: เพิ่มความทึบแสงให้สังเกตง่ายขึ้น
-        "editor.lineHighlightBorder": "#00000033", // สีขอบของบรรทัดที่อยู่ในตำแหน่ง
-        "editorLineNumber.activeForeground": "#ffffff", // สีข้อความเลขบรรทัดที่ใช้งานอยู่
-        "editorLink.activeForeground": "#4e94ce", // สีของลิงก์ที่ใช้งานอยู่
-        "editorIndentGuide.background": "#404040", // สีพื้นหลังของเส้นแนวชี้ความเยื้อง
-        "editorIndentGuide.activeBackground": "#707070", // สีพื้นหลังของเส้นแนวชี้ความเยื้องที่ใช้งานอยู่
-        "editorRuler.foreground": "#5a5a5a", // สีของเส้น ruler
-        "editorBracketMatch.background": "#b472e633", // 🎨 UX IMPROVEMENT: ใช้สีเด่นและโปร่งแสง
-        "editorBracketMatch.border": "#b472e6", // 🎨 UX IMPROVEMENT: ทำให้ขอบชัดเจน
-        "editor.foldBackground": "#212538", // สีพื้นหลังของการพับโค้ด
-        "editorOverviewRuler.background": "#00000000", // สีพื้นหลังของ overview ruler
-        "editorOverviewRuler.border": "#7f7f7f4d", // สีขอบของ overview ruler
-        "editorError.foreground": "#ff3700", // สีข้อความสำหรับ error
-        "editorError.background": "#B73A3400", // สีพื้นหลังสำหรับ error
-        "editorError.border": "#ffffff00", // สีขอบสำหรับ error
-        "editorWarning.foreground": "#ffd100", // สีข้อความสำหรับ warning
-        "editorWarning.background": "#A9904000", // สีพื้นหลังสำหรับ warning
-        "editorWarning.border": "#ffffff00", // สีขอบสำหรับ warning
-        "editorInfo.foreground": "#41a6ff", // สีข้อความสำหรับ info
-        "editorInfo.background": "#4490BF00", // สีพื้นหลังสำหรับ info
-        "editorInfo.border": "#4490BF00", // สีขอบสำหรับ info
-        "editorGutter.background": "#0c1021", // สีพื้นหลังของ gutter
-        "editorGutter.modifiedBackground": "#0c7d9d", // สีพื้นหลังสำหรับการแก้ไข
-        "editorGutter.addedBackground": "#0c7c32", // สีพื้นหลังสำหรับการเพิ่ม
-        "editorGutter.deletedBackground": "#ab3238", // สีพื้นหลังสำหรับการลบ
-        "editorGutter.foldingControlForeground": "#c5c5c5", // สีของการควบคุมการพับใน gutter
-        "editorCodeLens.foreground": "#999999", // สีข้อความสำหรับ CodeLens
-        "editorGroup.border": "#444444", // สีขอบของ editor group
-        "diffEditor.insertedTextBackground": "#9bb95533", // สีพื้นหลังของข้อความที่ถูกเพิ่มใน diff editor
-        "diffEditor.removedTextBackground": "#ff000033", // สีพื้นหลังของข้อความที่ถูกลบใน diff editor
-        "diffEditor.border": "#444444", // สีขอบของ diff editor
-        "panel.background": "#0f172a", // สีพื้นหลังของ panel
-        "panel.border": "#ffffff59", // สีขอบของ panel
-        "panelTitle.activeBorder": "#ffffff", // สีขอบของหัวข้อ panel ที่ใช้งานอยู่
-        "panelTitle.activeForeground": "#ffffff", // สีข้อความหัวข้อ panel ที่ใช้งานอยู่
-        "panelTitle.inactiveForeground": "#ffffff99", // สีข้อความหัวข้อ panel ที่ไม่ใช้งานอยู่
-        "badge.background": "#b472e6", // สีพื้นหลังของ badge
-        "badge.foreground": "#ffffff", // สีข้อความของ badge
-        "terminal.foreground": "#ffffff", // สีข้อความใน terminal
-        "terminal.selectionBackground": "#ffffff40", // สีพื้นหลังของการเลือกใน terminal
-        "terminalCursor.background": "#9966CC", // สีพื้นหลังของเคอร์เซอร์ใน terminal
-        "terminalCursor.foreground": "#ffffff", // สีข้อความของเคอร์เซอร์ใน terminal
-        "terminal.border": "#ffffff59", // สีขอบของ terminal
-        // สีปกติ (Normal)
-        "terminal.ansiBlack": "#3c4048", // ดำที่ไม่มืดสนิทเกินไป
-        "terminal.ansiRed": "#ff6e6e", // แดงอมชมพู สดใสและอ่านง่าย
-        "terminal.ansiGreen": "#7bd88f", // เขียวมิ้นท์ที่เข้ากับสี String
-        "terminal.ansiYellow": "#e7c36f", // เหลืองทอง/อำพัน อ่านง่าย ไม่แสบตา
-        "terminal.ansiBlue": "#58a6ff", // ฟ้าสดใส เป็นมิตรต่อสายตา
-        "terminal.ansiMagenta": "#d77be2", // ม่วงโทนเดียวกับ Keyword
-        "terminal.ansiCyan": "#4ca3b2", // ฟ้าเทอร์ควอยซ์/Teal
-        "terminal.ansiWhite": "#e4e4e7", // ขาวนวล
-        // สีสว่าง (Bright)
-        "terminal.ansiBrightBlack": "#8892b0", // เทาที่ใช้สำหรับ Comment
-        "terminal.ansiBrightRed": "#ff9e9e", // แดงที่สว่างและนุ่มนวลขึ้น
-        "terminal.ansiBrightGreen": "#98e4a9", // เขียวที่สว่างขึ้น
-        "terminal.ansiBrightYellow": "#f0d58f", // เหลืองที่สว่างขึ้น
-        "terminal.ansiBrightBlue": "#67e8f9", // ฟ้าไซแอน/สีของฟังก์ชัน
-        "terminal.ansiBrightMagenta": "#e699ff", // ม่วงที่สว่างและสดใส
-        "terminal.ansiBrightCyan": "#65d9ef", // ฟ้าเทอร์ควอยซ์ที่สว่างขึ้น
-        "terminal.ansiBrightWhite": "#ffffff", // ขาวบริสุทธิ์
-        "breadcrumb.background": "#0c1021", // สีพื้นหลังของ breadcrumb
-        "breadcrumb.foreground": "#ffffff", // สีข้อความใน breadcrumb
-        "breadcrumb.focusForeground": "#ffffff", // สีข้อความของ breadcrumb เมื่อมีการโฟกัส
-        "editorGroupHeader.border": "#ffffff00", // สีขอบของ header ของ editor group
-        "editorGroupHeader.tabsBackground": "#0f172a", // สีพื้นหลังของ tab ใน editor group
-        "editorGroupHeader.tabsBorder": "#000000", // สีขอบของ tab ใน editor group
-        "tab.activeForeground": "#ffffff", // 🎨 UX IMPROVEMENT: ทำให้สว่างและชัดที่สุด
-        "tab.border": "#000000", // สีขอบของ tab
-        "tab.activeBackground": "#0c1021", // สีพื้นหลังของ tab ที่ใช้งานอยู่
-        "tab.inactiveBackground": "#0f172a", // สีพื้นหลังของ tab ที่ไม่ใช้งานอยู่
-        "tab.activeBorder": "#00000000", // สีขอบของ tab ที่ใช้งานอยู่
-        "tab.activeBorderTop": "#00000000", // สีขอบบนของ tab ที่ใช้งานอยู่
-        "tab.inactiveForeground": "#9fa9c6", // 🎨 UX IMPROVEMENT: ทำให้จางลงเพื่อลดความสำคัญ
-        "tab.hoverBackground": "#01111d00", // สีพื้นหลังของ tab เมื่อวางเมาส์เหนือ
-        "tab.hoverForeground": "#ffffff", // สีข้อความของ tab เมื่อวางเมาส์เหนือ
-        "tab.hoverBorder": "#00000000", // สีขอบของ tab เมื่อวางเมาส์เหนือ
-        "scrollbarSlider.background": "#b07be680", // 🎨 UX IMPROVEMENT: ลดความทึบแสงลง
-        "scrollbarSlider.hoverBackground": "#b07be6b3", // 🎨 UX IMPROVEMENT: ทำให้ทึบขึ้นเมื่อ hover
-        "scrollbarSlider.activeBackground": "#b07be6df", // สีพื้นหลังของ scrollbar slider ที่ใช้งานอยู่
-        "progressBar.background": "#0e70c0", // สีพื้นหลังของ progress bar
-        "widget.shadow": "#c992ff9c", // สีเงาของ widget
-        "editorWidget.foreground": "#ffffff", // สีข้อความของ editor widget
-        "editorWidget.background": "#0f172a", // สีพื้นหลังของ editor widget
-        "editorWidget.resizeBorder": "#ffffff", // สีขอบของ editor widget เมื่อปรับขนาด
-        "pickerGroup.border": "#ffffff", // สีขอบของ picker group
-        "pickerGroup.foreground": "#3794ff", // สีข้อความของ picker group
-        "debugToolBar.background": "#0f172a", // สีพื้นหลังของ debug tool bar
-        "debugToolBar.border": "#cf9eff", // สีขอบของ debug tool bar
-        "notifications.foreground": "#e6e6e6", // สีข้อความของการแจ้งเตือน
-        "notifications.background": "#0f172a", // สีพื้นหลังของการแจ้งเตือน
-        "notificationToast.border": "#0f172a", // สีขอบของ notification toast
-        "notificationsErrorIcon.foreground": "#ff0000", // สีของไอคอน error ในการแจ้งเตือน
-        "notificationsWarningIcon.foreground": "#ffd100", // สีของไอคอน warning ในการแจ้งเตือน
-        "notificationsInfoIcon.foreground": "#62b5ff", // สีของไอคอน info ในการแจ้งเตือน
-        "notificationCenter.border": "#181b28", // สีขอบของ notification center
-        "notificationCenterHeader.foreground": "#ffffff", // สีข้อความของหัวข้อใน notification center
-        "notificationCenterHeader.background": "#181b28", // สีพื้นหลังของหัวข้อใน notification center
-        "notifications.border": "#ffffff0e", // สีขอบของการแจ้งเตือน
+        "foreground": "#b3b3b3",
+        "focusBorder": "#616161",
+        "selection.background": "#a65dbf80",
+        "scrollbar.shadow": "#000000",
+        "activityBar.foreground": "#ffffff",
+        "activityBar.background": "#0c1021",
+        "activityBar.inactiveForeground": "#ffffff66",
+        "activityBarBadge.foreground": "#ffffff",
+        "activityBarBadge.background": "#b472e6",
+        "sideBar.background": "#0f172a",
+        "sideBar.foreground": "#cccccc",
+        "sideBarSectionHeader.background": "#0c1021",
+        "sideBarSectionHeader.foreground": "#ffffff",
+        "sideBarSectionHeader.border": "#000000",
+        "sideBarTitle.foreground": "#eeeeee",
+        "list.inactiveSelectionBackground": "#2e2b57",
+        "list.inactiveSelectionForeground": "#ffffff",
+        "list.hoverBackground": "#3a3670",
+        "list.hoverForeground": "#ffffff",
+        "list.activeSelectionBackground": "#4238a3",
+        "list.activeSelectionForeground": "#ffffff",
+        "tree.indentGuidesStroke": "#ffffff74",
+        "list.dropBackground": "#5045b0",
+        "list.highlightForeground": "#dc69ffdf",
+        "list.focusBackground": "#b14dcf7e",
+        "list.focusForeground": "#ffffff",
+        "listFilterWidget.background": "#6b21a878",
+        "listFilterWidget.outline": "#d946ef",
+        "listFilterWidget.noMatchesOutline": "#ef4444",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.background": "#181b28",
+        "statusBarItem.hoverBackground": "#ffffff1f",
+        "statusBar.debuggingBackground": "#e26324",
+        "statusBar.debuggingForeground": "#ffffff",
+        "statusBar.noFolderBackground": "#750099",
+        "statusBar.noFolderForeground": "#ffffff",
+        "statusBarItem.remoteBackground": "#b856d6",
+        "statusBarItem.remoteForeground": "#ffffff",
+        "titleBar.activeBackground": "#0c1021",
+        "titleBar.activeForeground": "#fffffffd",
+        "titleBar.inactiveBackground": "#1a1f33",
+        "titleBar.inactiveForeground": "#9fa9c6",
+        "titleBar.border": "#000000",
+        "menubar.selectionForeground": "#ffffff",
+        "menubar.selectionBackground": "#b856d6",
+        "menu.foreground": "#d1cbcb",
+        "menu.background": "#0f172a",
+        "menu.selectionForeground": "#ffffff",
+        "menu.selectionBackground": "#ad45cd",
+        "menu.selectionBorder": "#00000000",
+        "menu.separatorBackground": "#868686",
+        "menu.border": "#00000085",
+        "button.background": "#a855f7",
+        "button.foreground": "#ffffff",
+        "button.hoverBackground": "#9333ea",
+        "button.secondaryForeground": "#ffffff",
+        "button.secondaryBackground": "#64748b",
+        "button.secondaryHoverBackground": "#475569",
+        "input.background": "#7851A9",
+        "input.border": "#b472e6",
+        "input.foreground": "#ffffff",
+        "inputOption.activeBackground": "#483D8B",
+        "inputOption.activeBorder": "#ffffffcc",
+        "inputOption.activeForeground": "#eeeeee",
+        "input.placeholderForeground": "#ffffff",
+        "textLink.foreground": "#b472e6",
+        "editor.background": "#0c1021",
+        "editor.foreground": "#d3d3d3",
+        "editorLineNumber.foreground": "#858585",
+        "editorCursor.foreground": "#ff6a00",
+        "editorCursor.background": "#000000",
+        "editor.selectionBackground": "#272b3d",
+        "editor.inactiveSelectionBackground": "#483D8B",
+        "editorWhitespace.foreground": "#e3e4e229",
+        "editor.selectionHighlightBackground": "#add6ff26",
+        "editor.selectionHighlightBorder": "#495F77",
+        "editor.findMatchBackground": "#515c6a",
+        "editor.findMatchBorder": "#74879f",
+        "editor.findMatchHighlightBackground": "#ea5c0055",
+        "editor.findMatchHighlightBorder": "#ffffff00",
+        "editor.findRangeHighlightBackground": "#3a3d4166",
+        "editor.findRangeHighlightBorder": "#ffffff00",
+        "editor.rangeHighlightBackground": "#ffffff0b",
+        "editor.rangeHighlightBorder": "#ffffff00",
+        "editor.hoverHighlightBackground": "#264f7840",
+        "editor.wordHighlightStrongBackground": "#004972b8",
+        "editor.wordHighlightBackground": "#575757b8",
+        "editor.lineHighlightBackground": "#ffffff12",
+        "editor.lineHighlightBorder": "#00000033",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editorLink.activeForeground": "#4e94ce",
+        "editorIndentGuide.background": "#404040",
+        "editorIndentGuide.activeBackground": "#707070",
+        "editorRuler.foreground": "#5a5a5a",
+        "editorBracketMatch.background": "#b472e633",
+        "editorBracketMatch.border": "#b472e6",
+        "editor.foldBackground": "#212538",
+        "editorOverviewRuler.background": "#00000000",
+        "editorOverviewRuler.border": "#7f7f7f4d",
+        "editorError.foreground": "#ff3700",
+        "editorError.background": "#B73A3400",
+        "editorError.border": "#ffffff00",
+        "editorWarning.foreground": "#ffd100",
+        "editorWarning.background": "#A9904000",
+        "editorWarning.border": "#ffffff00",
+        "editorInfo.foreground": "#41a6ff",
+        "editorInfo.background": "#4490BF00",
+        "editorInfo.border": "#4490BF00",
+        "editorGutter.background": "#0c1021",
+        "editorGutter.modifiedBackground": "#0c7d9d",
+        "editorGutter.addedBackground": "#0c7c32",
+        "editorGutter.deletedBackground": "#ab3238",
+        "editorGutter.foldingControlForeground": "#c5c5c5",
+        "editorCodeLens.foreground": "#999999",
+        "editorGroup.border": "#444444",
+        "diffEditor.insertedTextBackground": "#9bb95533",
+        "diffEditor.removedTextBackground": "#ff000033",
+        "diffEditor.border": "#444444",
+        "panel.background": "#0f172a",
+        "panel.border": "#ffffff59",
+        "panelTitle.activeBorder": "#ffffff",
+        "panelTitle.activeForeground": "#ffffff",
+        "panelTitle.inactiveForeground": "#ffffff99",
+        "badge.background": "#b472e6",
+        "badge.foreground": "#ffffff",
+        "terminal.foreground": "#ffffff",
+        "terminal.selectionBackground": "#ffffff40",
+        "terminalCursor.background": "#9966CC",
+        "terminalCursor.foreground": "#ffffff",
+        "terminal.border": "#ffffff59",
+        "terminal.ansiBlack": "#3c4048",
+        "terminal.ansiRed": "#ff6e6e",
+        "terminal.ansiGreen": "#7bd88f",
+        "terminal.ansiYellow": "#e7c36f",
+        "terminal.ansiBlue": "#58a6ff",
+        "terminal.ansiMagenta": "#d77be2",
+        "terminal.ansiCyan": "#4ca3b2",
+        "terminal.ansiWhite": "#e4e4e7",
+        "terminal.ansiBrightBlack": "#8892b0",
+        "terminal.ansiBrightRed": "#ff9e9e",
+        "terminal.ansiBrightGreen": "#98e4a9",
+        "terminal.ansiBrightYellow": "#f0d58f",
+        "terminal.ansiBrightBlue": "#67e8f9",
+        "terminal.ansiBrightMagenta": "#e699ff",
+        "terminal.ansiBrightCyan": "#65d9ef",
+        "terminal.ansiBrightWhite": "#ffffff",
+        "breadcrumb.background": "#0c1021",
+        "breadcrumb.foreground": "#ffffff",
+        "breadcrumb.focusForeground": "#ffffff",
+        "editorGroupHeader.border": "#ffffff00",
+        "editorGroupHeader.tabsBackground": "#0f172a",
+        "editorGroupHeader.tabsBorder": "#000000",
+        "tab.activeForeground": "#ffffff",
+        "tab.border": "#000000",
+        "tab.activeBackground": "#0c1021",
+        "tab.inactiveBackground": "#0f172a",
+        "tab.activeBorder": "#00000000",
+        "tab.activeBorderTop": "#00000000",
+        "tab.inactiveForeground": "#9fa9c6",
+        "tab.hoverBackground": "#01111d00",
+        "tab.hoverForeground": "#ffffff",
+        "tab.hoverBorder": "#00000000",
+        "scrollbarSlider.background": "#b07be680",
+        "scrollbarSlider.hoverBackground": "#b07be6b3",
+        "scrollbarSlider.activeBackground": "#b07be6df",
+        "progressBar.background": "#0e70c0",
+        "widget.shadow": "#c992ff9c",
+        "editorWidget.foreground": "#ffffff",
+        "editorWidget.background": "#0f172a",
+        "editorWidget.resizeBorder": "#ffffff",
+        "pickerGroup.border": "#ffffff",
+        "pickerGroup.foreground": "#3794ff",
+        "debugToolBar.background": "#0f172a",
+        "debugToolBar.border": "#cf9eff",
+        "notifications.foreground": "#e6e6e6",
+        "notifications.background": "#0f172a",
+        "notificationToast.border": "#0f172a",
+        "notificationsErrorIcon.foreground": "#ff0000",
+        "notificationsWarningIcon.foreground": "#ffd100",
+        "notificationsInfoIcon.foreground": "#62b5ff",
         "gitDecoration.addedResourceForeground": "#59b86b",
         "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
         "gitDecoration.deletedResourceForeground": "#ef535090",

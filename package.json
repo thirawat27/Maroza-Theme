@@ -18,9 +18,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Maroza Theme",
+        "label": "Maroza Dark Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/maroza-theme-color-theme.json"
+        "path": "./themes/Maroza-Dark-Theme.json"
+      },
+      {
+        "label": "Maroza Light Theme",
+        "uiTheme": "vs-light",
+        "path": "./themes/Maroza-Light-Theme.json"
+      },
+      {
+        "label": "Maroza Soothing Sepia Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Maroza-Soothing-Sepia-Theme.json"
       }
     ]
   }
