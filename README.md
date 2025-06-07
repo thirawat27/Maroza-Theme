@@ -25,19 +25,19 @@
 ### Maroza Dark Theme
 
 <p align="center">
-  <img src="/image/code.png" alt="Preview of Maroza Dark Theme" />
+  <img src="/image/code1.png" alt="Preview of Maroza Dark Theme" />
 </p>
 
 ### Maroza Light Theme
 
 <p align="center">
-  <img src="/image/code1.png" alt="Preview of Maroza Light Theme" />
+  <img src="/image/code2.png" alt="Preview of Maroza Light Theme" />
 </p>
 
 ### Maroza Sepia Theme
 
 <p align="center">
-  <img src="/image/code2.png" alt="Preview of Maroza Sepia Theme" />
+  <img src="/image/code3.png" alt="Preview of Maroza Sepia Theme" />
 </p>
 
 ---
