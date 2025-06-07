@@ -2,7 +2,7 @@
   <img src="/image/maroza.png" alt="Maroza Icon" width="250" height="250" />
 </p>
 
-# Maroza Theme 🌸
+<h1 align="center">Maroza Theme 🌸</h1>
 
 <p align="center">
   Maroza is a beautifully designed theme crafted for everyone. Whether you're a developer or a designer, Maroza provides a calm and modern color palette that enhances your coding experience with its soothing tones—carefully selected to reduce eye strain during long coding sessions. 💻
@@ -19,6 +19,8 @@
 </p>
 
 ---
+
+<br>
 
 ## 🎨 All Theme
 
