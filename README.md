@@ -20,9 +20,8 @@
 
 ---
 
-<br>
 
-## 🎨 All Theme
+<h1> 🎨 All Theme</h1>
 
 ### Maroza Dark Theme
 
@@ -41,9 +40,9 @@
 <p align="center">
   <img src="/image/code3.png" alt="Preview of Maroza Sepia Theme" />
 </p>
-<br>
 
 ---
+
 
 ## ⚙️ Installation
 
