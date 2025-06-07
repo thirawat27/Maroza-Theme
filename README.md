@@ -36,7 +36,7 @@
   <img src="/image/code2.png" alt="Preview of Maroza Light Theme" />
 </p>
 
-### Maroza Sepia Theme
+### Maroza Soothing Sepia Theme
 
 <p align="center">
   <img src="/image/code3.png" alt="Preview of Maroza Sepia Theme" />
