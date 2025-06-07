@@ -430,6 +430,41 @@
             }
         },
         {
+            "name": "JSON Key (Property Name)",
+            "scope": "support.type.property-name.json",
+            "settings": {
+                "foreground": "#fca17d"
+            }
+        },
+        {
+            "name": "JSON String Value",
+            "scope": "string.quoted.double.json",
+            "settings": {
+                "foreground": "#7BD88F"
+            }
+        },
+        {
+            "name": "JSON Number Value",
+            "scope": "constant.numeric.json",
+            "settings": {
+                "foreground": "#E7C36F"
+            }
+        },
+        {
+            "name": "JSON Boolean Value",
+            "scope": "constant.language.boolean.json",
+            "settings": {
+                "foreground": "#75B5FF"
+            }
+        },
+        {
+            "name": "JSON Null Value",
+            "scope": "constant.language.null.json",
+            "settings": {
+                "foreground": "#CBBABE"
+            }
+        },
+        {
             "name": "C operator assignment",
             "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
             "settings": {
