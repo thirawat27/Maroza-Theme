@@ -4,7 +4,7 @@
 
 * This folder contains all of the files necessary for your color theme extension.
 * `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Maroza Theme-color-theme.json` - the color theme definition file.
+* `themes/Maroza-Dark-Theme.json` , `themes/Maroza-Light-Theme.json` , `themes/Maroza-Soothing-Sepia-Theme.json`- the color theme definition file.
 
 ## Get up and running straight away
 
