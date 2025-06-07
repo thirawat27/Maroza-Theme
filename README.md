@@ -41,6 +41,7 @@
 <p align="center">
   <img src="/image/code3.png" alt="Preview of Maroza Sepia Theme" />
 </p>
+<br>
 
 ---
 
