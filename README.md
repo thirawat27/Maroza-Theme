@@ -35,10 +35,16 @@
   <img src="/image/code2.png" alt="Preview of Maroza Light Theme" />
 </p>
 
-### Maroza Soothing Sepia Theme
+### Maroza Soothing Aqua
 
 <p align="center">
-  <img src="/image/code3.png" alt="Preview of Maroza Sepia Theme" />
+  <img src="/image/code3.png" alt="Preview of Maroza Soothing Aqua" />
+</p>
+
+## Maroza Cyber Chill
+
+<p align="center">
+  <img src="/image/code4.png" alt="Preview of Maroza Cyber Chill" />
 </p>
 
 ---

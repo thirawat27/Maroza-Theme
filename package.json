@@ -8,7 +8,7 @@
   "publisher": "thirawat27",
   "displayName": "Maroza Theme",
   "description": "Maroza, a theme that fits everyone.",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -28,9 +28,14 @@
         "path": "./themes/Maroza-Light-Theme.json"
       },
       {
-        "label": "Maroza Soothing Sepia Theme",
+        "label": "Maroza Soothing Aqua",
         "uiTheme": "vs-dark",
-        "path": "./themes/Maroza-Soothing-Sepia-Theme.json"
+        "path": "./themes/Maroza-Soothing-Aqua.json"
+      },
+            {
+        "label": "Maroza Cyber Chill",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Maroza-Cyber-Chill.json"
       }
     ]
   }
