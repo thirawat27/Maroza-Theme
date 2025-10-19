@@ -69,7 +69,7 @@ If you have any questions or encounter issues, please reach out via email:
 
 ## 📄 License
 
-This theme is licensed under the MIT License:
+This theme is licensed under the MIT License
 
 
 ```
