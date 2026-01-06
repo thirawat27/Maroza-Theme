@@ -173,5 +173,5 @@ SOFTWARE.
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/thirawat27">Thirawat</a>
+  Made with ❤️ by <a href="https://github.com/thirawat27">Thirawat27</a>
 </p>
