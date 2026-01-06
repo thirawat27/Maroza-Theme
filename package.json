@@ -38,9 +38,9 @@
         "path": "./themes/Maroza-Cyber-Chill.json"
       },
       {
-        "label": "Maroza Dark Enhanced",
+        "label": "Maroza Zen Pro",
         "uiTheme": "vs-dark",
-        "path": "./themes/Maroza-Dark-Enhanced.json"
+        "path": "./themes/Maroza-Zen-Pro.json"
       }
     ]
   }
