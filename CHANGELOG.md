@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2026-01-06
+
+### 🔧 Maintenance
+- **Icon Update** — Added refined Maroza identity icon
+- **Documentation** — Cleaned up README and removed preview images for better loading speed
+
 ## [1.0.0] - 2026-01-06
 
 ### 🎉 Initial Release
