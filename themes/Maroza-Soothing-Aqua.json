@@ -646,7 +646,8 @@
                 "variable.function"
             ],
             "settings": {
-                "foreground": "#5EF5D1"
+                "foreground": "#5EF5D1",
+                "fontStyle": "bold"
             }
         },
         {
@@ -692,7 +693,8 @@
             "name": "Keyword Control",
             "scope": "keyword.control",
             "settings": {
-                "foreground": "#7CC7FF"
+                "foreground": "#7CC7FF",
+                "fontStyle": "bold"
             }
         },
         {
@@ -713,7 +715,8 @@
             "name": "Storage",
             "scope": "storage",
             "settings": {
-                "foreground": "#7CC7FF"
+                "foreground": "#7CC7FF",
+                "fontStyle": "bold"
             }
         },
         {
@@ -1623,7 +1626,6 @@
         }
     ],
     "colors": {
-        "foreground": "#E4E8F0",
         "focusBorder": "#6FE9F5",
         "selection.background": "#313244",
         "scrollbar.shadow": "#00000033",
@@ -1692,7 +1694,7 @@
         "editor.background": "#1E1E2E",
         "editor.foreground": "#E4E8F0",
         "editorLineNumber.foreground": "#7A8097",
-        "editorCursor.foreground": "#6FE9F5",
+        "editorCursor.foreground": "#ffffff",
         "editorCursor.background": "#1E1E2E",
         "editor.selectionBackground": "#313244",
         "editor.inactiveSelectionBackground": "#292B3A",

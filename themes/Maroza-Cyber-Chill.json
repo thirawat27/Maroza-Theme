@@ -641,7 +641,8 @@
                 "variable.function"
             ],
             "settings": {
-                "foreground": "#75b5ff"
+                "foreground": "#75b5ff",
+                "fontStyle": "bold"
             }
         },
         {
@@ -687,7 +688,8 @@
             "name": "Keyword Control",
             "scope": "keyword.control",
             "settings": {
-                "foreground": "#d77be2"
+                "foreground": "#d77be2",
+                "fontStyle": "bold"
             }
         },
         {
@@ -708,7 +710,8 @@
             "name": "Storage",
             "scope": "storage",
             "settings": {
-                "foreground": "#d77be2"
+                "foreground": "#d77be2",
+                "fontStyle": "bold"
             }
         },
         {
@@ -1608,8 +1611,8 @@
         }
     ],
     "colors": {
+        "focusBorder": "#c792ea",
         "foreground": "#d9e1ff",
-        "focusBorder": "#ffc777",
         "selection.background": "#3b4261",
         "scrollbar.shadow": "#00000033",
         "activityBar.foreground": "#d9e1ff",
@@ -1677,7 +1680,7 @@
         "editor.background": "#1a1b26",
         "editor.foreground": "#d9e1ff",
         "editorLineNumber.foreground": "#6b75a2",
-        "editorCursor.foreground": "#ffab70",
+        "editorCursor.foreground": "#ffffff",
         "editorCursor.background": "#000000",
         "editor.selectionBackground": "#3b4261",
         "editor.inactiveSelectionBackground": "#2a2f4a",

@@ -641,7 +641,8 @@
                 "variable.function"
             ],
             "settings": {
-                "foreground": "#2563EB"
+                "foreground": "#2563EB",
+                "fontStyle": "bold"
             }
         },
         {
@@ -687,7 +688,8 @@
             "name": "Keyword Control",
             "scope": "keyword.control",
             "settings": {
-                "foreground": "#8B5CF6"
+                "foreground": "#8B5CF6",
+                "fontStyle": "bold"
             }
         },
         {
@@ -708,7 +710,8 @@
             "name": "Storage",
             "scope": "storage",
             "settings": {
-                "foreground": "#8B5CF6"
+                "foreground": "#8B5CF6",
+                "fontStyle": "bold"
             }
         },
         {
@@ -1612,7 +1615,7 @@
     ],
     "colors": {
         "foreground": "#2d3748",
-        "focusBorder": "#a78bfa",
+        "focusBorder": "#9333ea",
         "selection.background": "#dadafc",
         "scrollbar.shadow": "#a78bfa33",
         "activityBar.background": "#ede9fe",
@@ -1677,7 +1680,7 @@
         "editor.foreground": "#111827",
         "editorLineNumber.foreground": "#9ca3af",
         "editorLineNumber.activeForeground": "#5b21b6",
-        "editorCursor.foreground": "#6d28d9",
+        "editorCursor.foreground": "#000000",
         "editor.selectionBackground": "#dadafc",
         "editor.inactiveSelectionBackground": "#e5e7eb",
         "editorWhitespace.foreground": "#e5e7eb",
@@ -1691,10 +1694,10 @@
         "editor.lineHighlightBorder": "#dcd7fe",
         "editorLink.activeForeground": "#6d28d9",
         "editorIndentGuide.background": "#e5e7eb",
-        "editorIndentGuide.activeBackground": "#c4b5fd",
+        "editorIndentGuide.activeBackground": "#9333ea",
         "editorRuler.foreground": "#dcd7fe",
         "editorBracketMatch.background": "#dcd7fe",
-        "editorBracketMatch.border": "#a78bfa",
+        "editorBracketMatch.border": "#9333ea",
         "editorError.foreground": "#dc2626",
         "editorWarning.foreground": "#f97316",
         "editorInfo.foreground": "#2563eb",
