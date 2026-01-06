@@ -41,34 +41,52 @@
 ## 🎨 Theme Variants
 
 ### 🌑 Maroza Dark Theme
-A sleek dark theme with balanced contrast and vibrant accents. Perfect for night coding.
+**The refined standard** — a sleek dark theme for everyday coding.
+
+- 🌑 **Sleek Aesthetics** — distinct dark blue-grey palette for a modern feel
+- ⚖️ **Balanced Contrast** — Text stands out clearly without being too sharp
+- 🎨 **Vibrant Accents** — Syntax highlighting that is colorful but professional
+- 🌃 **Night Mode** — The go-to choice for late-night coding sessions
 
 ---
 
 ### 🌕 Maroza Light Theme
-A clean light theme perfect for well-lit environments. High legibility without being harsh.
+**The perfect day companion** — high legibility for well-lit environments.
+
+- ☀️ **Clean & Airy** — A soft light background that feels open and spacious
+- 🕶️ **Anti-Glare** — Calibrated brightness to avoid harsh whites
+- 🌈 **Natural Tones** — Syntax colors adapted for light backgrounds
+- 📄 **Print-Like Clarity** — Text looks as sharp as ink on paper
 
 ---
 
 ### 🌊 Maroza Soothing Aqua
-A calming dark theme with refreshing aqua tones. Great for focus and relaxation.
+**Dive into focus** — a calming theme inspired by the deep ocean.
+
+- 🌊 **Cool Tones** — Dominated by teals, cyans, and deep blues
+- 🧘 **Stress Reduction** — Cool colors known to promote relaxation
+- 💎 **Refreshing Look** — A break from the standard warm/neutral dark themes
+- 🧊 **Crystal Clear** — High contrast against a cool background
 
 ---
 
 ### 🎮 Maroza Cyber Chill
-A modern dark theme with cyberpunk-inspired aesthetics. Fun, vibrant, and energetic.
+**Code with energy** — a cyberpunk-inspired theme for the bold.
+
+- 🎮 **Neon Aesthetics** — Electric pinks, purples, and cyans
+- ⚡ **High Vibration** — Energetic colors to keep you alert
+- 🔮 **Modern Touch** — A futuristic look that stands out
+- 🕹️ **Gamified Feel** — Brings a fun, tech-noir vibe to your editor
 
 ---
 
-### 🧘 Maroza Zen Pro ⭐ NEW
+### 🧘 Maroza Zen Pro ⭐ 
 **The ultimate programmer's theme** — designed for professionals who code all day.
 
 - 🎯 **Focus-First Design** — Minimal distractions, maximum productivity
 - 👁️ **Eye Health Optimized** — Warm, muted colors that reduce eye strain
 - ⚡ **Developer Experience** — Carefully balanced contrast for long coding sessions
 - 🧠 **Cognitive Load Reduced** — Clear visual hierarchy without noise
-
-*Perfect for developers who value their eye health and want a professional, distraction-free coding environment.*
 
 ---
 
@@ -85,7 +103,7 @@ A modern dark theme with cyberpunk-inspired aesthetics. Fun, vibrant, and energe
    - `Maroza Light Theme`
    - `Maroza Soothing Aqua`
    - `Maroza Cyber Chill`
-   - `Maroza Zen Pro` ⭐ *Recommended for professionals*
+   - `Maroza Zen Pro` 
 
 ---
 

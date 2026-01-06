@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.2] - 2026-01-06
+
+### 📚 Documentation
+- **README Refinement** — Standardized description formats for all themes to match Maroza Zen Pro (Use of bullet points and emojis)
+
 ## [1.0.1] - 2026-01-06
 
 ### 🔧 Maintenance
