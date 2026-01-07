@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.3] - 2026-01-07
+
+### 🚀 Major Enhancements
+- **"State of the Art" Consistency** — Updated *Maroza Light*, *Soothing Aqua*, and *Cyber Chill* to match the premium quality of the Dark theme.
+- **Typography Overhaul** — Added **Bold** formatting to Keywords, Classes, Functions, and HTML Tags, plus *Italic* formatting for Parameters across all themes.
+- **Realistic UI** — Implemented 3D-styled Keybinding Labels and sharper, defined borders for a more impactful user interface.
+- **100% Language Support** — Added comprehensive token colors for Ruby, Shell, Lua, GraphQL, Kotlin, Scala, Dart, R, and more to ensure full coverage.
+- **Visual Refinements** — Polished borders and structural elements (Sidebar, Activity Bar, etc.) for a cleaner, modern look.
+
 ## [1.0.2] - 2026-01-06
 
 ### 📚 Documentation

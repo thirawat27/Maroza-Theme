@@ -33,7 +33,9 @@
 - **5 Beautiful Themes** — Choose from Dark, Light, Soothing Aqua, Cyber Chill, or Zen Pro variants
 - **Eye-Friendly Colors** — Carefully curated palette to reduce eye strain
 - **Modern Design** — Clean, minimal, and distraction-free aesthetics
-- **Rich Syntax Highlighting** — Enhanced semantic token support for better code readability
+- **Rich Syntax Highlighting** — **Bold** keywords and *Italic* parameters for enhanced readability
+- **Realistic UI** — 3D-styled keybindings and defined borders for a premium feel
+- **100% Language Support** — Extensive coverage for Ruby, Go, Python, Lua, Shell, and many more
 - **Comprehensive UI Coverage** — Consistent styling across all VS Code elements
 
 ---
