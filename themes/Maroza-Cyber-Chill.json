@@ -827,7 +827,8 @@
             "name": "Tags",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#ff6e6e"
+                "foreground": "#ff6e6e",
+                "fontStyle": "bold"
             }
         },
         {
@@ -864,7 +865,8 @@
             "name": "Headings",
             "scope": "markup.heading",
             "settings": {
-                "foreground": "#ff6e6e"
+                "foreground": "#ff6e6e",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2074,7 +2076,8 @@
         "debugToolBar.border": "#cf9eff",
         "notifications.foreground": "#e6e6e6",
         "notifications.background": "#0f172a",
-        "notificationToast.border": "#0f172a",
+        "notificationToast.border": "#ffc777",
+        "notifications.border": "#ffc777",
         "notificationsErrorIcon.foreground": "#ff0000",
         "notificationsWarningIcon.foreground": "#ffd100",
         "notificationsInfoIcon.foreground": "#62b5ff",

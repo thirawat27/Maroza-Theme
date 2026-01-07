@@ -648,7 +648,8 @@
                 "variable.function"
             ],
             "settings": {
-                "foreground": "#5EF5D1"
+                "foreground": "#5EF5D1",
+                "fontStyle": "bold"
             }
         },
         {
@@ -828,7 +829,8 @@
             "name": "Tags",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#7CC7FF"
+                "foreground": "#7CC7FF",
+                "fontStyle": "bold"
             }
         },
         {
@@ -1630,6 +1632,282 @@
             "settings": {
                 "foreground": "#B0B7D1"
             }
+        },
+        {
+            "name": "Ruby Variables",
+            "scope": [
+                "variable.other.ruby"
+            ],
+            "settings": {
+                "foreground": "#FF7A8A"
+            }
+        },
+        {
+            "name": "Ruby Class",
+            "scope": [
+                "entity.name.type.class.ruby"
+            ],
+            "settings": {
+                "foreground": "#8EF5CE",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Ruby Hash Key",
+            "scope": [
+                "constant.other.symbol.hashkey.ruby"
+            ],
+            "settings": {
+                "foreground": "#9AF580"
+            }
+        },
+        {
+            "name": "Shell Variables",
+            "scope": [
+                "variable.other.normal.shell",
+                "variable.other.positional.shell",
+                "variable.other.bracket.shell"
+            ],
+            "settings": {
+                "foreground": "#FF7A8A"
+            }
+        },
+        {
+            "name": "Shell Commands",
+            "scope": [
+                "support.function.builtin.shell",
+                "entity.name.command.shell"
+            ],
+            "settings": {
+                "foreground": "#5EF5D1",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "PowerShell Variables",
+            "scope": [
+                "variable.other.readwrite.powershell"
+            ],
+            "settings": {
+                "foreground": "#FF7A8A"
+            }
+        },
+        {
+            "name": "PowerShell Cmdlets",
+            "scope": [
+                "support.function.powershell"
+            ],
+            "settings": {
+                "foreground": "#5EF5D1",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Lua Variables",
+            "scope": [
+                "variable.other.lua"
+            ],
+            "settings": {
+                "foreground": "#E4E8F0"
+            }
+        },
+        {
+            "name": "Lua Functions",
+            "scope": [
+                "entity.name.function.lua"
+            ],
+            "settings": {
+                "foreground": "#5EF5D1",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "GraphQL Types",
+            "scope": [
+                "support.type.graphql",
+                "entity.name.type.graphql"
+            ],
+            "settings": {
+                "foreground": "#8EF5CE",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "GraphQL Fields",
+            "scope": [
+                "variable.graphql"
+            ],
+            "settings": {
+                "foreground": "#E4E8F0"
+            }
+        },
+        {
+            "name": "YAML Keys",
+            "scope": [
+                "entity.name.tag.yaml"
+            ],
+            "settings": {
+                "foreground": "#D09EFF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "XML Tags",
+            "scope": [
+                "entity.name.tag.xml"
+            ],
+            "settings": {
+                "foreground": "#7CC7FF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Kotlin Classes",
+            "scope": [
+                "entity.name.type.class.kotlin"
+            ],
+            "settings": {
+                "foreground": "#8EF5CE",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Kotlin Functions",
+            "scope": [
+                "entity.name.function.kotlin"
+            ],
+            "settings": {
+                "foreground": "#5EF5D1",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Scala Classes",
+            "scope": [
+                "entity.name.class.scala"
+            ],
+            "settings": {
+                "foreground": "#8EF5CE",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Docker Keywords",
+            "scope": [
+                "keyword.other.dockerfile"
+            ],
+            "settings": {
+                "foreground": "#7CC7FF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Batch Variables",
+            "scope": [
+                "variable.other.readwrite.batch"
+            ],
+            "settings": {
+                "foreground": "#FF7A8A"
+            }
+        },
+        {
+            "name": "LaTeX Sections",
+            "scope": [
+                "support.function.section.latex"
+            ],
+            "settings": {
+                "foreground": "#8EF5CE",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "C# Classes",
+            "scope": [
+                "entity.name.type.class.cs"
+            ],
+            "settings": {
+                "foreground": "#8EF5CE",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Dart/Flutter Classes",
+            "scope": [
+                "support.class.dart"
+            ],
+            "settings": {
+                "foreground": "#8EF5CE",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Dart Properties",
+            "scope": [
+                "variable.other.property.dart"
+            ],
+            "settings": {
+                "foreground": "#D09EFF"
+            }
+        },
+        {
+            "name": "R Language Functions",
+            "scope": [
+                "entity.name.function.r",
+                "variable.function.r"
+            ],
+            "settings": {
+                "foreground": "#5EF5D1",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Perl Variables",
+            "scope": [
+                "variable.other.readwrite.global.perl"
+            ],
+            "settings": {
+                "foreground": "#FF7A8A"
+            }
+        },
+        {
+            "name": "Blade Keywords",
+            "scope": [
+                "keyword.control.blade"
+            ],
+            "settings": {
+                "foreground": "#7CC7FF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Twig Strings",
+            "scope": [
+                "string.quoted.single.twig",
+                "string.quoted.double.twig"
+            ],
+            "settings": {
+                "foreground": "#9AF580"
+            }
+        },
+        {
+            "name": "Terraform Resources",
+            "scope": [
+                "entity.name.type.resource.terraform"
+            ],
+            "settings": {
+                "foreground": "#8EF5CE",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Generic Object Properties (Fallback)",
+            "scope": [
+                "variable.other.property",
+                "support.variable.property"
+            ],
+            "settings": {
+                "foreground": "#B4BEFE"
+            }
         }
     ],
     "colors": {
@@ -1809,7 +2087,8 @@
         "debugToolBar.border": "#313244",
         "notifications.foreground": "#E4E8F0",
         "notifications.background": "#252537",
-        "notificationToast.border": "#313244",
+        "notificationToast.border": "#5EF5D1",
+        "notifications.border": "#5EF5D1",
         "notificationsErrorIcon.foreground": "#FF7A8A",
         "notificationsWarningIcon.foreground": "#FFE085",
         "notificationsInfoIcon.foreground": "#5EF5D1",

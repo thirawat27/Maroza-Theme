@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.4] - 2026-01-07
+
+### 🔧 Standardization Update
+- **Unified Theme Standards** — Applied Maroza Dark Theme standards across all themes:
+  - Added `fontStyle: "bold"` to **Functions**, **Classes**, **Types**, **Tags**, and **Headings** in *Maroza Light Theme*
+  - Added `fontStyle: "bold"` to **Tags** and **Headings** in *Maroza Cyber Chill*
+  - Added `fontStyle: "bold"` to **Functions** and **Tags** in *Maroza Soothing Aqua*
+- **Complete Language Coverage** — Added missing Language-specific rules to *Maroza Soothing Aqua*:
+  - Ruby, Shell, PowerShell, Lua, GraphQL, YAML, XML, Kotlin, Scala, Docker, Batch, LaTeX, C#, Dart, R, Perl, Blade, Twig, and Terraform
+- **Consistency Improvements** — Ensured all themes now follow the same font styling conventions for key code elements
+
 ## [1.0.3] - 2026-01-07
 
 ### 🚀 Major Enhancements

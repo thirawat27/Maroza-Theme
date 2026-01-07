@@ -646,28 +646,32 @@
                 "variable.function"
             ],
             "settings": {
-                "foreground": "#2563EB"
+                "foreground": "#2563EB",
+                "fontStyle": "bold"
             }
         },
         {
             "name": "Classes",
             "scope": "entity.name.type.namespace",
             "settings": {
-                "foreground": "#D97706"
+                "foreground": "#D97706",
+                "fontStyle": "bold"
             }
         },
         {
             "name": "Classes",
             "scope": "support.class, entity.name.type.class",
             "settings": {
-                "foreground": "#D97706"
+                "foreground": "#D97706",
+                "fontStyle": "bold"
             }
         },
         {
             "name": "Class name",
             "scope": "entity.name.class.identifier.namespace.type",
             "settings": {
-                "foreground": "#D97706"
+                "foreground": "#D97706",
+                "fontStyle": "bold"
             }
         },
         {
@@ -678,14 +682,16 @@
                 "variable.other.class.ts"
             ],
             "settings": {
-                "foreground": "#D97706"
+                "foreground": "#D97706",
+                "fontStyle": "bold"
             }
         },
         {
             "name": "Type Name",
             "scope": "entity.name.type",
             "settings": {
-                "foreground": "#D97706"
+                "foreground": "#D97706",
+                "fontStyle": "bold"
             }
         },
         {
@@ -820,7 +826,8 @@
             "name": "Tags",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#DC2626"
+                "foreground": "#DC2626",
+                "fontStyle": "bold"
             }
         },
         {
@@ -857,7 +864,8 @@
             "name": "Headings",
             "scope": "markup.heading",
             "settings": {
-                "foreground": "#DC2626"
+                "foreground": "#DC2626",
+                "fontStyle": "bold"
             }
         },
         {
@@ -2043,6 +2051,8 @@
         "pickerGroup.border": "#8B5CF6",
         "editorSuggestWidget.border": "#e2e8f0",
         "editorHoverWidget.border": "#e2e8f0",
-        "peekView.border": "#8B5CF6"
+        "peekView.border": "#8B5CF6",
+        "notificationToast.border": "#8B5CF6",
+        "notifications.border": "#8B5CF6"
     }
 }
