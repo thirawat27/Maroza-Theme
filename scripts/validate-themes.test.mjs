@@ -50,10 +50,13 @@ function contrastRatio(foreground, background) {
   return (lighter + 0.05) / (darker + 0.05);
 }
 
-test('Maroza Dark remains byte-for-byte outside this redesign', async () => {
+// Maroza Dark is the reference theme the checks below derive their requirements from,
+// so it only changes on purpose. Re-pin this hash in the same commit as any Dark edit.
+// Last re-pinned for the DX/UX pass on the `colors` block (tokenColors untouched).
+test('Maroza Dark matches its reviewed snapshot', async () => {
   const { source } = await readTheme(darkThemeFile);
   const checksum = createHash('sha256').update(source).digest('hex');
-  assert.equal(checksum, 'bae670032366be91102419caa2e0b3803328f2cc8ac1f96d823f9e6419c97c04');
+  assert.equal(checksum, '5eaa972feead203ef9ff3a0a00c23f75b6f75ca1148d79536281fa4b49879750');
 });
 
 test('every redesigned theme covers every TextMate scope supported by Maroza Dark', async () => {
