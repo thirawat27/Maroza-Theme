@@ -9,6 +9,9 @@
   "displayName": "Maroza Theme",
   "description": "Maroza, a theme that fits everyone.",
   "version": "1.0.4",
+  "scripts": {
+    "test": "node --test scripts/validate-themes.test.mjs"
+  },
   "engines": {
     "vscode": "^1.101.0"
   },
