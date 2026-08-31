@@ -7,6 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2026-08-31
+
+### 🎨 Syntax Palette Overhaul (Light, Soothing Aqua, Cyber Chill, Zen Pro)
+- **Higher-Chroma Colors** — Rebuilt the syntax palettes so accents read as saturated rather than pastel, without sacrificing readability. Every syntax color stays at or above the 4.5:1 (WCAG AA) contrast ratio against its editor background.
+  - *Soothing Aqua* — mean accent chroma **+33%**
+  - *Cyber Chill* — mean accent chroma **+23%**
+  - *Zen Pro* — mean accent chroma **+63%** (kept warm and muted to preserve its low-fatigue identity)
+  - *Light* — retuned for a contrast gain of **+0.8 to +1.5** across every role (chroma is already near its ceiling on a white background)
+- **Wider Hue Separation** — Adjusted accent hues so neighboring roles (types, functions, support, keywords) stay visually distinct.
+- **Maroza Dark Unchanged** — Dark remains the reference theme and was not touched in this release.
+
+### 🛠️ Developer Experience (DX) Fixes
+Each theme was previously generated from a small shared palette, which collapsed many distinct editor states onto the same color. These are now separated:
+- **Selections** — active selection, inactive selection, and other-occurrence highlights are now three distinct shades (active reads louder than inactive).
+- **Find** — the current match now clearly outranks the other matches, with a matching border.
+- **Read vs Write Occurrences** — `wordHighlight` and `wordHighlightStrong` are no longer identical.
+- **Tabs** — active, inactive, and hovered tabs now use different surfaces, so the active tab is obvious.
+- **Lists** — hover, focus, active selection, and inactive selection are now four distinct backgrounds in the Explorer, Quick Open, and other lists.
+- **Indent Guides** — became visible (previously equal to the editor background), with a stronger active guide.
+- **Editor Rulers** — dimmed from full text brightness to a subtle line.
+- **Diff Editor** — deleted-line highlighting restored (previously equal to the editor background).
+- **Rendered Whitespace, CodeLens, Folded Regions** — dimmed so they no longer compete with code.
+- **Git Gutter & Diff** — added, modified, and deleted markers use solid, readable colors instead of faint pastels.
+- **Bracket Match** — given its own accent instead of reusing the selection color.
+
+### 🖥️ Terminal
+- **Full 16-Color ANSI Palette** — Each theme previously exposed only ~7 real ANSI colors (normal equaled bright, and blue equaled cyan). All 16 slots are now distinct, so dim output and colored CLI text render correctly.
+- **Accurate Ansi Black** — fixed *Light*'s near-white `ansiBlack` that was invisible on a light background.
+
 ## [1.0.4] - 2026-01-07
 
 ### 🔧 Standardization Update
